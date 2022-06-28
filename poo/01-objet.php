@@ -25,7 +25,7 @@
                 <h2 class="text-center">Que sont les objets</h2>
                 <p>Les objets ressemblent fortement aux variables que l'on connaît (string, integer, boolean, float, array, etc...) mais ces dernières sont limitées et on peut se retrouver bloqué. Par exemple lorsque l'on crée un réseau social et que l'on veut sauvegarder un utilisateur. À ce moment là on voudra définir ses limites, ses droits, etc... Ces tableaux deviennent vite très complexes et si on doit transmettre notre code, les personnes qui ne l'ont pas écrit s'y perdent facilement. Un autre exemple où le procédural est compliqué à appliquer est lorsque l'on s'occupe des dates. Elles sont en effet considérées comme des chaînes de caractères. Et faire des ajouts de jours ou de mois dessus devient très compliqué. Il faudra convertir les données et passer d'un format à l'autre. En orienté objet les manipulations de dates seront beaucoup plus simples.</p>
                 <p class="alert alert-secondary">
-                    <strong>MaDate</strong> est une classe <br> <strong>$date1 = new MaDate:</strong> sont des objets ou bien des instanciationsde cette classe.
+                    <strong>MaDate</strong> est une classe <br> <strong>$date1 = new MaDate:</strong> sont des objets ou bien des instanciations de cette classe.
                 </p>
              
             </div> <!-- Fin de la col-12 -->
