@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-12">
                 <h2 class="text-center">Historique</h2>
-                <p>La notion d'objet a été introduite dans les langages de programmation en 1962 par le langage simlula. Cette façon de programmer a évoluée avant d'être popularisée en 1983 avec la sortie du langage C++, un langage orienté objet dont l'utilisation ressemble à celle du langage C.</p>
+                <p>La notion d'objet a été introduite dans les langages de programmation en 1962 par le langage simula. Cette façon de programmer a évoluée avant d'être popularisée en 1983 avec la sortie du langage C++, un langage orienté objet dont l'utilisation ressemble à celle du langage C.</p>
                 <p>Cette nouvelle façon de programmer répond à plusieurs besoins.</p>
                 <ul>
                     <li>Elle facilite les changements importants dans le programme.</li>
