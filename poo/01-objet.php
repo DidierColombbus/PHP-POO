@@ -34,6 +34,11 @@
                 <h2 class="text-center">Les propriétés</h2>
                 <p>Sur nos différents objets (ou instanciations) nous allons avoir des propriétés, des variables. Un objet pourra contenir plusieurs propriétés mais aussi plusieurs méthodes: sur une classe MaDate on pourra imaginer des propriétés pour afficher le nombre de jours mais aussi des méthodes pour ajouter des jours ou des mois.</p>
             </div><!-- Fin de la col-12 -->
+
+            <div class="col-12">
+                <h2 class="text-center">Les méthodes</h2>
+                <p>Comme nous en avons parlé au-dessus, les classes peuvent aussi contenir des méthodes. Ces dernières sont en effet des fonctions, appelées méthodes dans le cadre de la POO. Elles ont donc la même nomenclature qu'en procédural : <code>nomMethode();</code></p>
+            </div><!-- Fin de la col-12 -->
             
         </div>
     </div>
