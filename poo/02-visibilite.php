@@ -38,7 +38,7 @@
             
             <div class="col-12">
                 <h2 class="text-center">Mais pourquoi choisir autre chose que <em>public</em>?</h2>
-                <p>Les notions de <em>public</em>, <em>private</em> et <em>protected</em> ne sont pas nécessaiers à 100% lorsque l'on travaille seul. Cependant, si notre code a vocation d'être vu par d'autres développeurs, ou si l'on a besoin d'être débuggé, il faudra bien définir les propriétés pour que les personnes qui passent derrière comprennent ce qui peut être modifié ou pas.</p>
+                <p>Les notions de <em>public</em>, <em>private</em> et <em>protected</em> ne sont pas nécessaires à 100% lorsque l'on travaille seul. Cependant, si notre code a vocation d'être vu par d'autres développeurs, ou si l'on a besoin d'être débuggé, il faudra bien définir les propriétés pour que les personnes qui passent derrière comprennent ce qui peut être modifié ou pas.</p>
                 <p>Généralement dans les codes destinés à la relecture par d'autres, on trouvera toutes les propriétés en <em>private</em> et les <code>getters</code> et <code>setters</code> pour y accéder. De la même façon qu'un <code>getter</code> récupère une information (ex: comme le nom, la vie ou encore des pts d'attaque), un <code>setter</code> permet de donner ou modifier une valeur. <code>Getters</code> et <code>setters</code> serviront de garde-fou pour éviter les modifications intempestives du code.</p>
             </div><!-- Fin de la col-12 -->
             
