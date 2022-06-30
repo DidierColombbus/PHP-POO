@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <title>Objet - cours programmation orientée objet</title>
+    <title>Visibilité - cours programmation orientée objet</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,18 +15,18 @@
     <div class="p-5 bg-light">
         <div class="container">
             <h1 class="display-3">POO : la programmation orientée objet</h1>
-            <p class="lead text-center mt-3">Introduction</p>
+            <p class="lead text-center mt-3">La visibilité</p>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center">Que sont les objets</h2>
-                <p>Les objets ressemblent fortement aux variables que l'on connaît (string, integer, boolean, float, array, etc...) mais ces dernières sont limitées et on peut se retrouver bloqué. Par exemple lorsque l'on crée un réseau social et que l'on veut sauvegarder un utilisateur. À ce moment là on voudra définir ses limites, ses droits, etc... Ces tableaux deviennent vite très complexes et si on doit transmettre notre code, les personnes qui ne l'ont pas écrit s'y perdent facilement. Un autre exemple où le procédural est compliqué à appliquer est lorsque l'on s'occupe des dates. Elles sont en effet considérées comme des chaînes de caractères. Et faire des ajouts de jours ou de mois dessus devient très compliqué. Il faudra convertir les données et passer d'un format à l'autre. En orienté objet les manipulations de dates seront beaucoup plus simples.</p>
-                <p class="alert alert-secondary">
-                    <strong>MaDate</strong> est une classe <br> <strong>$date1 = new MaDate:</strong> sont des objets ou bien des instanciations de cette classe.
-                </p>
+                <h2 class="text-center">Introduction</h2>
+                <p>La visibilité représente la portée de nos propriétés et de nos méthodes, elle définie à quel moment on pourra y accéder et à quel moment cela nous sera impossible.</p>
+
+                <h3 class="text-secondary text-center">La visibilité <em>public</em></h3>
+                <p>La visibilité <em>public</em> est celle que l'on utilise par défaut au sein de nos classes. Elle va permettre de définir qu'une propriété ou une méthode est accessible dans la classe en faisant <code>$this</code> mais aussi sur une page externe lorsque l'on fait un <em>require</em> de notre classe, comme on a pu le faire pour accéder à nos différents fichiers</p>
              
             </div> <!-- Fin de la col-12 -->
             
