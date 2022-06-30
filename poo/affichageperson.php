@@ -17,4 +17,48 @@
     // $pikachu-> vie = 0;
 
     echo "<p>" . $pikachu->getNom() . "</p>";
+
+    var_dump($mario);
+
+    echo "<br>";
+
+    var_dump($luigi);
+
+    echo "<br>";
+
+    $luigi -> regenerer(5);
+    var_dump($luigi);
+
+    echo "<br>";
+
+    var_dump($pikachu);
+    echo "<br>";
+
+    var_dump($pikachu->mort());
+    echo "<br>";
+
+    $pikachu->attaque($mario);
+    if($mario->mort()){
+        echo "<p>Mario est mort!!!</p>";
+    }else{
+        echo "<p>Mario a survécu, il lui reste " . $mario->vie . " points de vie. Ouf! </p>";
+    }
+
+    echo "<br>";
+
+    $pikachu -> setNom("Princess Peach");
+    var_dump($pikachu->getNom());
+
+    echo "<br>";
+
+    $merlin = new Magicien("Merlin");
+    var_dump($merlin);
+
+    var_dump($merlin->vie);
+
+    $merlin->attaque($luigi);
+
+    // echo "<p>Mario a " . $mario->vie . " points de vie.</p>";
+
+    var_dump($luigi);
 ?>
