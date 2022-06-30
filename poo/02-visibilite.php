@@ -26,8 +26,14 @@
                 <p>La visibilité représente la portée de nos propriétés et de nos méthodes, elle définie à quel moment on pourra y accéder et à quel moment cela nous sera impossible.</p>
 
                 <h3 class="text-secondary text-center">La visibilité <em>public</em></h3>
-                <p>La visibilité <em>public</em> est celle que l'on utilise par défaut au sein de nos classes. Elle va permettre de définir qu'une propriété ou une méthode est accessible dans la classe en faisant <code>$this</code> mais aussi sur une page externe lorsque l'on fait un <em>require</em> de notre classe, comme on a pu le faire pour accéder à nos différents fichiers</p>
+                <p>La visibilité <em>public</em> est celle que l'on utilise par défaut au sein de nos classes. Elle va permettre de définir qu'une propriété ou une méthode est accessible dans la classe en faisant <code>$this</code> mais aussi sur une page externe lorsque l'on fait un <em>require</em> de notre classe, comme on a pu le faire pour accéder à nos différents fichiers.</p>
              
+                <h3 class="text-secondary text-center">La visibilité <em>private</em></h3>
+                <p>La visibilité <em>private</em> ou privée signifie que la propriété est accessible dans la classe mais pas en dehors, on ne pourra donc pas faire appel directement à notre propriété dans une page externe. C'est pour cette raison que les <code>getters</code> et <code>setters</code> font leur apparition. Les <code>getters</code> vont permettre d'afficher le contenu d'une propriété ayant la visibilé <em>private</em>. La construction de ce <code>getter</code> qui va permettre aux autres développeurs de savoir ce qu'ils peuvent changer ou pas. Elle se fera toujours de la même façon : <code>getNomvariable</code> suivi de <code>return $this->nomvariable</code>. On verra cela plus en détail lorsque l'on aborder Symfony.</p>
+
+                <h3 class="text-secondary text-center">La visibilité <em>protected</em></h3>
+                <p>Lorsqu'une variable a la visibilité <em>protected</em>, ou protégée, on a à peu près le même champ d'action qu'une visibilité <em>private</em>. En revanche cette visibilité est légèrement moins stricte car on peut réutiliser la propriété protégée lorsque l'on hérite de la classe sur laquelle elle est déclarée. Nous verrons la notion d'héritage un peu plus tard.</p>
+                
             </div> <!-- Fin de la col-12 -->
             
             <div class="col-12">
