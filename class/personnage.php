@@ -31,9 +31,34 @@
         $this->nom = $nom;
     }
 
-    
+    // On définie une fonction (méthode) qui lorsqu'on l'appelle fait un echo de la phrase
 
+    public function crier(){
+        echo "JE PARS À L'ATTAQUE!!!";
+    }
 
+    // création de la méthode regénérer. Pour cette méthode il faudra utiliser $this => fait référence au personnage (à l'objet) sur lequel on va appliquer la méthode). Pour cette méthode, le but est de mettre la vie du personnage sur lequel elle est appliquée à 100
+
+    public function regenerer($vie = null){
+        // Si on ne précise pas de chiffres en paramètres alors la vie sera régénérée à 100 sinon si en paramètres on passe 5 par exemple alors on rajoutera 5 à la vie de notre personnage
+        if(is_null($vie)){
+            $this->vie = 100;
+        }
+        else{
+            $this->vie += $vie;
+        }
+    }
+
+public function mort(){
+    // cette méthode renvoie le booléen false quand le personnage n'est pas mort et true si le personnage est mort
+    return $this->vie <= 0;
+}
+
+protected function empecher_negatif(){
+    if ($this->vie < 0){
+        $this->vie = 0;
+    }
+}
 
 
 
