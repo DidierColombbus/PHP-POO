@@ -7,6 +7,8 @@
         protected $vie = 80;
         public $atk = 20;
         // c'est sûrement par convention et pour s'y retrouver dans le code qu'on déclare notre propriété à cet endroit (on pourrait définir le nom directement dans la page affichage.php mais c'est fortement déconseillé).
+        protected $nom;
+        // public est la visibilité de notre variable, on en reparlera plus tard pour définir ce qu'elle veut dire.
 
 
 
