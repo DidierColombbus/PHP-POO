@@ -16,11 +16,11 @@
         }
         public function input($name)
         {
-            return $this->surround('<input type="text" name="' .$name. '" value="'.$this->getValue($name).'">');
+            return $this->surround('<input type="text" name="' .$name. '" placeholder="'.$name.'" value="'.$this->getValue($name).'">');
         }
         public function inputPS($name)
         {
-            return $this->surround('<input type="password" name="' .$name. '" value="'.$this->getValue($name).'">');
+            return $this->surround('<input type="password" name="' .$name. '" placeholder="'.$name.'" value="'.$this->getValue($name).'">');
         }
 
         public function submit(){

@@ -11,7 +11,7 @@ class BootstrapForm extends Form
     {
         return $this->surround(
             '<label>'. $name .'</label>'.
-            '<input type="text" name="'. $name .'" value="'. $this->getValue($name) .'" class="form-control">
+            '<input type="text" name="'. $name .'" placeholder="'.$name.'" value="'. $this->getValue($name) .'" class="form-control">
         ');
     }
 
@@ -19,7 +19,7 @@ class BootstrapForm extends Form
     {
         return $this->surround(
             '<label>'. $name .'</label>'.
-            '<input type="password" name="'. $name .'" value="'. $this->getValue($name) .'" class="form-control">
+            '<input type="password" name="'. $name .'" placeholder="'.$name.'" value="'. $this->getValue($name) .'" class="form-control">
         ');
     }
 
