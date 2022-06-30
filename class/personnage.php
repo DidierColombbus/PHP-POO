@@ -49,16 +49,16 @@
         }
     }
 
-public function mort(){
-    // cette méthode renvoie le booléen false quand le personnage n'est pas mort et true si le personnage est mort
-    return $this->vie <= 0;
-}
-
-protected function empecher_negatif(){
-    if ($this->vie < 0){
-        $this->vie = 0;
+    public function mort(){
+        // cette méthode renvoie le booléen false quand le personnage n'est pas mort et true si le personnage est mort
+        return $this->vie <= 0;
     }
-}
+
+    protected function empecher_negatif(){
+        if ($this->vie < 0){
+            $this->vie = 0;
+        }
+    }
 
 
 
