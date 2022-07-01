@@ -34,7 +34,9 @@
 
                 <h2 class="text-secondary text-center">Utilisation</h2>
 
-                <p></p>
+                <p>Pour qu'une classe hérite d'une autre, il suffira d'écrire, apr_s l'habituel <code>class Nomclass</code> d'écrire le mot <em>extends</em> suivi de la classe dont on veut hériter. Cette façon de faire permet d'instancier un personnage qui aura peut-être des nouvelles propriétés grâce à notre nouvelle classe.</p>
+
+                <p>Lorsque l'on fera un <em>require</em> de notre nouvelle classe, il faudra bien respecter l'ordre dans lequel on appelle nos classes: d'abords la classe initiale puis celle qui est étendue, notre classe secondaire.</p>
 
                 
                 
